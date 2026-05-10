@@ -1,0 +1,65 @@
+2026-05-10 14:55:53,691 - agent - INFO - middleware.py:40- [log_before_model]即将调用模型，带有2条消息。
+2026-05-10 15:21:25,994 - agent - INFO - middleware.py:40- [log_before_model]即将调用模型，带有2条消息。
+2026-05-10 15:21:29,031 - agent - INFO - middleware.py:19- [tool monitor]执行工具：get_user_id
+2026-05-10 15:21:29,031 - agent - INFO - middleware.py:20- [tool monitor]传入参数：{}
+2026-05-10 15:21:29,032 - agent - INFO - middleware.py:24- [tool monitor]工具get_user_id调用成功
+2026-05-10 15:21:29,106 - agent - INFO - middleware.py:40- [log_before_model]即将调用模型，带有4条消息。
+2026-05-10 15:21:32,296 - agent - INFO - middleware.py:19- [tool monitor]执行工具：get_current_month
+2026-05-10 15:21:32,296 - agent - INFO - middleware.py:20- [tool monitor]传入参数：{}
+2026-05-10 15:21:32,296 - agent - INFO - middleware.py:24- [tool monitor]工具get_current_month调用成功
+2026-05-10 15:21:32,419 - agent - INFO - middleware.py:40- [log_before_model]即将调用模型，带有6条消息。
+2026-05-10 15:21:34,828 - agent - INFO - middleware.py:19- [tool monitor]执行工具：fill_context_report
+2026-05-10 15:21:34,828 - agent - INFO - middleware.py:20- [tool monitor]传入参数：{}
+2026-05-10 15:21:34,828 - agent - INFO - middleware.py:24- [tool monitor]工具fill_context_report调用成功
+2026-05-10 15:21:34,829 - agent - INFO - middleware.py:40- [log_before_model]即将调用模型，带有8条消息。
+2026-05-10 15:21:37,658 - agent - INFO - middleware.py:19- [tool monitor]执行工具：fetch_external_data
+2026-05-10 15:21:37,658 - agent - INFO - middleware.py:20- [tool monitor]传入参数：{'user_id': '1001', 'month': '2025-09'}
+2026-05-10 15:21:37,660 - agent - ERROR - middleware.py:31- 工具fetch_external_data调用失败，原因：外部数据文件C:\PythonProject4\date/external/records.csv不存在
+2026-05-10 15:27:32,467 - agent - INFO - middleware.py:40- [log_before_model]即将调用模型，带有2条消息。
+2026-05-10 15:27:35,082 - agent - INFO - middleware.py:19- [tool monitor]执行工具：get_user_id
+2026-05-10 15:27:35,082 - agent - INFO - middleware.py:20- [tool monitor]传入参数：{}
+2026-05-10 15:27:35,084 - agent - INFO - middleware.py:24- [tool monitor]工具get_user_id调用成功
+2026-05-10 15:27:35,160 - agent - INFO - middleware.py:40- [log_before_model]即将调用模型，带有4条消息。
+2026-05-10 15:27:37,725 - agent - INFO - middleware.py:19- [tool monitor]执行工具：get_current_month
+2026-05-10 15:27:37,726 - agent - INFO - middleware.py:20- [tool monitor]传入参数：{}
+2026-05-10 15:27:37,726 - agent - INFO - middleware.py:24- [tool monitor]工具get_current_month调用成功
+2026-05-10 15:27:37,847 - agent - INFO - middleware.py:40- [log_before_model]即将调用模型，带有6条消息。
+2026-05-10 15:27:39,627 - agent - INFO - middleware.py:19- [tool monitor]执行工具：fill_context_report
+2026-05-10 15:27:39,627 - agent - INFO - middleware.py:20- [tool monitor]传入参数：{}
+2026-05-10 15:27:39,628 - agent - INFO - middleware.py:24- [tool monitor]工具fill_context_report调用成功
+2026-05-10 15:27:39,629 - agent - INFO - middleware.py:40- [log_before_model]即将调用模型，带有8条消息。
+2026-05-10 15:27:41,641 - agent - INFO - middleware.py:19- [tool monitor]执行工具：fetch_external_data
+2026-05-10 15:27:41,641 - agent - INFO - middleware.py:20- [tool monitor]传入参数：{'user_id': '1010', 'month': '2025-08'}
+2026-05-10 15:27:41,643 - agent - ERROR - middleware.py:31- 工具fetch_external_data调用失败，原因：外部数据文件C:\PythonProject4\date/external/records.csv不存在
+2026-05-10 15:33:39,931 - agent - INFO - middleware.py:40- [log_before_model]即将调用模型，带有2条消息。
+2026-05-10 15:33:43,226 - agent - INFO - middleware.py:19- [tool monitor]执行工具：get_user_id
+2026-05-10 15:33:43,227 - agent - INFO - middleware.py:20- [tool monitor]传入参数：{}
+2026-05-10 15:33:43,227 - agent - INFO - middleware.py:24- [tool monitor]工具get_user_id调用成功
+2026-05-10 15:33:43,303 - agent - INFO - middleware.py:40- [log_before_model]即将调用模型，带有4条消息。
+2026-05-10 15:33:45,710 - agent - INFO - middleware.py:19- [tool monitor]执行工具：get_current_month
+2026-05-10 15:33:45,710 - agent - INFO - middleware.py:20- [tool monitor]传入参数：{}
+2026-05-10 15:33:45,711 - agent - INFO - middleware.py:24- [tool monitor]工具get_current_month调用成功
+2026-05-10 15:33:45,831 - agent - INFO - middleware.py:40- [log_before_model]即将调用模型，带有6条消息。
+2026-05-10 15:33:47,807 - agent - INFO - middleware.py:19- [tool monitor]执行工具：fill_context_report
+2026-05-10 15:33:47,809 - agent - INFO - middleware.py:20- [tool monitor]传入参数：{}
+2026-05-10 15:33:47,809 - agent - INFO - middleware.py:24- [tool monitor]工具fill_context_report调用成功
+2026-05-10 15:33:47,810 - agent - INFO - middleware.py:40- [log_before_model]即将调用模型，带有8条消息。
+2026-05-10 15:33:50,637 - agent - INFO - middleware.py:19- [tool monitor]执行工具：fetch_external_data
+2026-05-10 15:33:50,637 - agent - INFO - middleware.py:20- [tool monitor]传入参数：{'user_id': '1002', 'month': '2025-05'}
+2026-05-10 15:33:50,638 - agent - ERROR - middleware.py:31- 工具fetch_external_data调用失败，原因：外部数据文件C:\PythonProject4\date/external/records.csv不存在
+2026-05-10 15:37:26,035 - agent - INFO - middleware.py:40- [log_before_model]即将调用模型，带有2条消息。
+2026-05-10 15:37:30,118 - agent - INFO - middleware.py:19- [tool monitor]执行工具：get_user_id
+2026-05-10 15:37:30,118 - agent - INFO - middleware.py:20- [tool monitor]传入参数：{}
+2026-05-10 15:37:30,118 - agent - INFO - middleware.py:24- [tool monitor]工具get_user_id调用成功
+2026-05-10 15:37:30,195 - agent - INFO - middleware.py:40- [log_before_model]即将调用模型，带有4条消息。
+2026-05-10 15:37:32,153 - agent - INFO - middleware.py:19- [tool monitor]执行工具：get_current_month
+2026-05-10 15:37:32,153 - agent - INFO - middleware.py:20- [tool monitor]传入参数：{}
+2026-05-10 15:37:32,153 - agent - INFO - middleware.py:24- [tool monitor]工具get_current_month调用成功
+2026-05-10 15:37:32,276 - agent - INFO - middleware.py:40- [log_before_model]即将调用模型，带有6条消息。
+2026-05-10 15:37:36,311 - agent - INFO - middleware.py:19- [tool monitor]执行工具：fill_context_report
+2026-05-10 15:37:36,311 - agent - INFO - middleware.py:20- [tool monitor]传入参数：{}
+2026-05-10 15:37:36,311 - agent - INFO - middleware.py:24- [tool monitor]工具fill_context_report调用成功
+2026-05-10 15:37:36,312 - agent - INFO - middleware.py:40- [log_before_model]即将调用模型，带有8条消息。
+2026-05-10 15:37:39,961 - agent - INFO - middleware.py:19- [tool monitor]执行工具：fetch_external_data
+2026-05-10 15:37:39,961 - agent - INFO - middleware.py:20- [tool monitor]传入参数：{'user_id': '1010', 'month': '2025-10'}
+2026-05-10 15:37:39,963 - agent - ERROR - middleware.py:31- 工具fetch_external_data调用失败，原因：外部数据文件C:\PythonProject4\date/external/records.csv不存在
