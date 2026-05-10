@@ -41,5 +41,10 @@ class EmbeddingsFactory(BaseModelFactory):
         )
 
 
-chat_model_name = ChatModelFactory().generator()
-embedding_model_name = EmbeddingsFactory().generator()
+# 原来的错误写法
+# chat_model_name = ChatModelFactory().generator()
+# embedding_model_name = EmbeddingsFactory().generator()
+
+# 改成和导入语句一致的名字
+chat_model = ChatModelFactory().generator()
+embedding_model = EmbeddingsFactory().generator()
