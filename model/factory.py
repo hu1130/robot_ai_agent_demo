@@ -36,10 +36,10 @@ class EmbeddingsFactory(BaseModelFactory):
             dashscope_api_key = st.secrets["DASH_SCOPE_API_KEY"]
 
         return DashScopeEmbeddings(
-            model=rag_conf["embedding_model"],
+            model=rag_conf["embedding_model_name"],
             dashscope_api_key=dashscope_api_key
         )
 
 
-chat_model = ChatModelFactory().generator()
-embedding_model = EmbeddingsFactory().generator()
+chat_model_name = ChatModelFactory().generator()
+embedding_model_name = EmbeddingsFactory().generator()
