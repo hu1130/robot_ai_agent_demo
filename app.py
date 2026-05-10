@@ -3,7 +3,7 @@ import streamlit as st
 from agent.tools.react_agent import ReactAgent
 import os
 
-
+os.environ["DASH_SCOPE_API_KEY"] = st.secrets["DASH_SCOPE_API_KEY"]
 os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
 # 页面配置
 st.set_page_config(page_title="扫地机器人智能客服", layout="wide")
