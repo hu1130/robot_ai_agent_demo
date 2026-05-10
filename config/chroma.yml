@@ -1,7 +1,7 @@
 collection_name: agent
 persist_directory: chroma_ab
 k: 3
-date_path: date
+data_path: data
 md5_hex_store: md5.text
 allow_knowledge_file_type: ["txt","pdf"]
 
